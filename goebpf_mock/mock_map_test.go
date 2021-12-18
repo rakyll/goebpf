@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dropbox/goebpf"
-	mock_wrapper "github.com/dropbox/goebpf/goebpf_mock/wrapper"
+	"github.com/rakyll/goebpf"
+	mock_wrapper "github.com/rakyll/goebpf/goebpf_mock/wrapper"
 )
 
 // cgo-test does not support import C code

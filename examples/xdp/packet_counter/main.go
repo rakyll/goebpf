@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 )
 
 var iface = flag.String("iface", "", "Interface to bind XDP program to")

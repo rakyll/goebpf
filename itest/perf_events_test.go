@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 	"github.com/stretchr/testify/require"
 )
 

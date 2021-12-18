@@ -1,6 +1,9 @@
 // Copyright (c) 2019 Dropbox, Inc.
 // Full license can be found in the LICENSE file.
 
+//go:build linux
+// +build linux
+
 package main
 
 import (
@@ -10,9 +13,8 @@ import (
 	"os/signal"
 	"time"
 
+	"github.com/rakyll/goebpf"
 	"golang.org/x/sys/unix"
-
-	"github.com/dropbox/goebpf"
 )
 
 const (

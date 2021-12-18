@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 	"github.com/stretchr/testify/suite"
 )
 

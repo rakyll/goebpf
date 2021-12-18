@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 	"github.com/vishvananda/netlink"
 )
 

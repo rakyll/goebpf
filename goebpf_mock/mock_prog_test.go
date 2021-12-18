@@ -6,7 +6,7 @@ package goebpf_mock
 import (
 	"testing"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 )
 
 // Just to ensure that MockProgram implements goebpf.Program interface

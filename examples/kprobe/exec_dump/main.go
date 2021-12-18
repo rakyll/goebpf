@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 )
 
 var (

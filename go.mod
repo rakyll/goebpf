@@ -1,4 +1,4 @@
-module github.com/dropbox/goebpf
+module github.com/rakyll/goebpf
 
 go 1.13
 

@@ -341,7 +341,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 )
 
 // MockMap defines eBPF mockmap and implements Map interface

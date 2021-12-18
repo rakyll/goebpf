@@ -4,7 +4,7 @@
 package goebpf_mock
 
 import (
-	"github.com/dropbox/goebpf"
+	"github.com/rakyll/goebpf"
 )
 
 // MockProgram is mock implementation for eBPF program
